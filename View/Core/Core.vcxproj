@@ -125,8 +125,8 @@
     <ClCompile Include="..\..\Core\Lib\Common\SampleDocument.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Core\Include\Sample\Common\DebuggerSettings.h" />
     <ClInclude Include="..\..\Core\Include\Sample\Common\SampleDocument.h" />
-    <ClInclude Include="..\..\Core\Include\Sample\Common\SampleSettings.h" />
   </ItemGroup>
 
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
