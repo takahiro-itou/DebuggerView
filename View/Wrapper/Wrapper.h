@@ -116,7 +116,7 @@ public:
 //
 private:
 
-    typedef     Sample::Common::SampleDocument  WrapTarget;
+    typedef     GbDebugger::Common::SampleDocument  WrapTarget;
 
     WrapTarget  *   m_ptrObj;
 };
