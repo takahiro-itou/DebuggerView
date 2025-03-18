@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include    "Sample/Common/SampleDocument.h"
+#include    "GbDebugger/Common/SampleDocument.h"
 
 using namespace System;
 
