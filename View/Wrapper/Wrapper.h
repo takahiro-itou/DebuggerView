@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include    "Sample/Common/SampleDocument.h"
+#include    "GbDebugger/Common/SampleDocument.h"
 
 using namespace System;
 
@@ -116,7 +116,7 @@ public:
 //
 private:
 
-    typedef     Sample::Common::SampleDocument  WrapTarget;
+    typedef     GbDebugger::Common::SampleDocument  WrapTarget;
 
     WrapTarget  *   m_ptrObj;
 };
