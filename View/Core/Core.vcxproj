@@ -123,6 +123,10 @@
 
   <ItemGroup>
     <ClCompile Include="..\..\Core\Lib\Common\SampleDocument.cpp" />
+    <ClCompile Include="..\..\Core\Lib\GbaMan\BaseCpuCore.cpp" />
+    <ClCompile Include="..\..\Core\Lib\GbaMan\BaseDisCpu.cpp" />
+    <ClCompile Include="..\..\Core\Lib\GbaMan\GbaManager.cpp" />
+    <ClCompile Include="..\..\Core\Lib\GbaMan\MemoryManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Core\Include\Sample\Common\DebuggerSettings.h" />
