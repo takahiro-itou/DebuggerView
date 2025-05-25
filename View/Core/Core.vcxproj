@@ -132,6 +132,8 @@
     <ClCompile Include="..\..\Core\Lib\GbaMan\CpuArm\CpuArm.cpp" />
     <ClCompile Include="..\..\Core\Lib\GbaMan\CpuArm\DisArm.cpp" />
     <ClCompile Include="..\..\Core\Lib\GbaMan\CpuArm\StoreLoad.cpp" />
+    <ClCompile Include="..\..\Core\Lib\GbaMan\CpuThumb\CpuThumb.cpp" />
+    <ClCompile Include="..\..\Core\Lib\GbaMan\CpuThumb\DisThumb.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Core\Include\Sample\Common\DebuggerSettings.h" />
