@@ -127,6 +127,11 @@
     <ClCompile Include="..\..\Core\Lib\GbaMan\BaseDisCpu.cpp" />
     <ClCompile Include="..\..\Core\Lib\GbaMan\GbaManager.cpp" />
     <ClCompile Include="..\..\Core\Lib\GbaMan\MemoryManager.cpp" />
+    <ClCompile Include="..\..\Core\Lib\GbaMan\CpuArm\Branch.cpp" />
+    <ClCompile Include="..\..\Core\Lib\GbaMan\CpuArm\ArmPsr.cpp" />
+    <ClCompile Include="..\..\Core\Lib\GbaMan\CpuArm\CpuArm.cpp" />
+    <ClCompile Include="..\..\Core\Lib\GbaMan\CpuArm\DisArm.cpp" />
+    <ClCompile Include="..\..\Core\Lib\GbaMan\CpuArm\StoreLoad.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Core\Include\Sample\Common\DebuggerSettings.h" />
