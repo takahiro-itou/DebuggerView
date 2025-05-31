@@ -136,10 +136,10 @@
     <ClCompile Include="..\..\Core\Lib\GbaMan\CpuThumb\DisThumb.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Core\Include\Sample\Common\DebuggerProject.h" />
-    <ClInclude Include="..\..\Core\Include\Sample\Common\DebuggerTypes.h" />
-    <ClInclude Include="..\..\Core\Include\Sample\Common\DebuggerUtils.h" />
-    <ClInclude Include="..\..\Core\Include\Sample\Common\SampleDocument.h" />
+    <ClInclude Include="..\..\Core\Include\GbDebugger\Common\DebuggerProject.h" />
+    <ClInclude Include="..\..\Core\Include\GbDebugger\Common\DebuggerTypes.h" />
+    <ClInclude Include="..\..\Core\Include\GbDebugger\Common\DebuggerUtils.h" />
+    <ClInclude Include="..\..\Core\Include\GbDebugger\Common\SampleDocument.h" />
   </ItemGroup>
 
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
