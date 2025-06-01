@@ -140,6 +140,12 @@
     <ClInclude Include="..\..\Core\Include\GbDebugger\Common\DebuggerTypes.h" />
     <ClInclude Include="..\..\Core\Include\GbDebugger\Common\DebuggerUtils.h" />
     <ClInclude Include="..\..\Core\Include\GbDebugger\Common\SampleDocument.h" />
+    <ClInclude Include="..\..\Core\Include\GbDebugger\GbaMan\BaseCpuCore.h" />
+    <ClInclude Include="..\..\Core\Include\GbDebugger\GbaMan\BaseDisCpu.h" />
+    <ClInclude Include="..\..\Core\Include\GbDebugger\GbaMan\CpuUtils.h" />
+    <ClInclude Include="..\..\Core\Include\GbDebugger\GbaMan\GbaManager.h" />
+    <ClInclude Include="..\..\Core\Include\GbDebugger\GbaMan\MemoryManager.h" />
+    <ClInclude Include="..\..\Core\Include\GbDebugger\GbaMan\MemoryTable.h" />
   </ItemGroup>
 
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
