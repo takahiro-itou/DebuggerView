@@ -15,7 +15,8 @@ jobs :
         build-type   : [ Release, Debug ]
 
     steps :
-      - uses : actions/checkout@v4
+      - name : Checkout
+        uses : actions/checkout@v4
         with :
           submodules : 'true'
 
@@ -31,7 +32,7 @@ jobs :
 
       - name : Build
         working-directory : ${{ github.workspace }}
-        run : >
+        run  : >
           msbuild -restore -t:Rebuild -p:Platform=x64 -p:Configuration="${{ matrix.build-type }}" "${{ env.SOLUTION_FILE_PATH }}"
         shell : pwsh
 
