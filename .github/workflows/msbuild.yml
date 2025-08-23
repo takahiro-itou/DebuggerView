@@ -41,3 +41,4 @@ on :
     branches : [ "master", "develop" ]
   pull_request :
     branches : [ "master", "develop" ]
+  workflow_dispatch :
