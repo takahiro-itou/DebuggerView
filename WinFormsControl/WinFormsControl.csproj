@@ -2,11 +2,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>10.0</LangVersion>
     <Nullable>enable</Nullable>
+    <Platforms>x64;Win32</Platforms>
+    <RootNamespace>WinFormsControl</RootNamespace>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <Import Project="..\Props\OutputLibs.props" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cli.Net8\Wrapper.Net80.vcxproj" />
+  </ItemGroup>
 
 </Project>
