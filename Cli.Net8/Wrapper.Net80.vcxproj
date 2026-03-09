@@ -58,7 +58,6 @@
   </PropertyGroup>
 
   <!--
-    Import in Directory.Build.props
   <Import Project="..\Props\OutputLibs.props" />
   <Import Project="..\Props\OutputCommon.props" />
   -->
