@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <ImportGroup Label="PropertySheets">
+  </ImportGroup>
+
+  <PropertyGroup Label="UserMacros">
+    <GBDEBUGGER_REPO_ROOT_DIR>..</GBDEBUGGER_REPO_ROOT_DIR>
+    <GBDEBUGGER_CORE_TOP_DIR>..\Core</GBDEBUGGER_CORE_TOP_DIR>
+    <GBDEBUGGER_CORE_INC_DIR>..\Core\Include;..\Core</GBDEBUGGER_CORE_INC_DIR>
+    <GBDEBUGGER_PPDEFS>GBDEBUGGER_USE_PRE_CONFIGURED_MSVC</GBDEBUGGER_PPDEFS>
+  </PropertyGroup>
+
+  <PropertyGroup>
+   <_PropertySheetDisplayName>Sample Property Sheet</_PropertySheetDisplayName>
+  </PropertyGroup>
+
+</Project>
